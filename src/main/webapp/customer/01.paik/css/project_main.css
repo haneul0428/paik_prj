@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: separate;
+	margin-bottom: 20px;
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10%;
+}
+
+button.cancel {
+	background-color: #f44336;
+	margin-left: 10px;
+	border-radius: 10%;
+}
+
+button.confirm {
+	background-color: #0d6efd;
+	margin-right: 10px;
+	border-radius: 10%;
+}
+/* ----------------------------class------------------------------ */
+th, td, .user, .code, .id, .name, .signUp, .rank, .status, .cell {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+
+.search-bar {
+	margin-bottom: 20px;
+}
+
+.search-bar input {
+	padding: 8px;
+	width: 300px;
+}
+
+.search-bar button {
+	padding: 8px 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.actions button {
+	margin-right: 5px;
+	padding: 6px 12px;
+	cursor: pointer;
+	border: none;
+	color: white;
+}
+
+.edit-btn {
+	background-color: #FFD700;
+}
+
+.delete-btn {
+	background-color: #FF0000;
+}
+
+.add-member {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.confirm-delete {
+	background-color: #FF0000;
+	color: white;
+	border: none;
+}
+
+.cancel-delete {
+	background-color: #f2f2f2;
+	color: black;
+	border: 1px solid #ddd;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.headHTxt{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+table{
+	border-spacing: 0 15px;
+}
+.txt{
+	color: #797979;
+}
+.resultTxt{
+	color: #001F60;
+	font-weight: bold;
+}
+.contentTxt{
+	display: block;
+	text-align: left;
+	color: #333;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#findIdContainer, #findPassContainer{
+	margin-bottom: 30px;
+}
+.inputBox {
+	width: calc(100% - 20px);
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	margin-top: 15px;
+	padding: 10px;
+	height: 46px;
+}
+.inputPhoneBox{
+	width: calc(34% - 20px);
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	margin-top: 15px;
+	padding: 10px;
+}
+.msg{
+	margin-top: 5px;
+	display: block;
+	min-height: 20px;
+	text-align: left;
+}
+.idError, .nameError, .phoneError{
+	color: red;
+	font-size: 12px;
+	height: 20px;
+	min-height: 20px;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+#findIdBtn, #findPassBtn, #okBtn{
+	cursor: pointer;
+	background-color: #FFE800;
+	color: #FFFFFF;
+	border: 0px;
+	height: 50px;
+	width: 97.5%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
